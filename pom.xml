@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>4.1.1</version>
+		<version>3.5.3</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.wejut</groupId>
@@ -32,13 +32,18 @@
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-webmvc</artifactId>
+			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
 		<dependency>
     		<groupId>dev.langchain4j</groupId>
     		<artifactId>langchain4j-community-dashscope-spring-boot-starter</artifactId>
     		<version>1.22.0-beta32</version>
+		</dependency>
+		<dependency>
+    		<groupId>dev.langchain4j</groupId>
+    		<artifactId>langchain4j</artifactId>
+   		 	<version>1.22.0</version>
 		</dependency>
 
 		<dependency>
@@ -48,7 +53,7 @@
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-webmvc-test</artifactId>
+			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
