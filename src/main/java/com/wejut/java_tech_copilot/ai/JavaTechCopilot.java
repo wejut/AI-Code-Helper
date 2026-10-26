@@ -1,4 +1,4 @@
-package com.wejut.ai_code_helper.ai;
+package com.wejut.java_tech_copilot.ai;
 
 import org.springframework.stereotype.Service;
 import dev.langchain4j.data.message.AiMessage;
@@ -11,7 +11,7 @@ import lombok.extern.slf4j.Slf4j;
 
 @Service
 @Slf4j
-public class AiCodeHelper {
+public class JavaTechCopilot {
 
     private static final String SYSTEM_MESSAGE = """
             你是一个编程助手，用简体中文帮助初学者理解代码。

@@ -1,10 +1,10 @@
-package com.wejut.ai_code_helper;
+package com.wejut.java_tech_copilot;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class AiCodeHelperApplicationTests {
+class JavaTechCopilotApplicationTests {
 
 	@Test
 	void contextLoads() {
