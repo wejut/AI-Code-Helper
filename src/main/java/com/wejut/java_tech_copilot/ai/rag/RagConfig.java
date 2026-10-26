@@ -34,7 +34,7 @@ public class RagConfig {
         EmbeddingStore<TextSegment> embeddingStore = embeddingStore();
         // ------ RAG ------
         // 1. 加载文档
-        List<Document> documents = FileSystemDocumentLoader.loadDocuments("src/main/resources/docs");
+        List<Document> documents = FileSystemDocumentLoader.loadDocuments("E:\\JAVA\\PeojectLearning\\java-tech-copilot\\backend");
         // 2. 文档切割：将每个文档按每段进行分割，最大 1000 字符，每次重叠最多 200 个字符
         DocumentByParagraphSplitter paragraphSplitter = new DocumentByParagraphSplitter(1000, 200);
         // 3. 自定义文档加载器
